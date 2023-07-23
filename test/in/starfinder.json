@@ -1,0 +1,31 @@
+{
+  "version": 0,
+  "data": {
+    "type": "character",
+    "id": "8fa82c7",
+    "attributes": {
+      "game": "starfinder",
+      "x-language": "french",
+      "isLoggedIn": true,
+      "name": "Fizzlepop",
+      "race": "",
+      "background": "background/noble",
+      "classes": [
+        "Mechanic"
+      ],
+      "archetypes": [],
+      "inventoryStyle": "double",
+      "optionCover": true,
+      "optionPermission": true,
+      "optionBuild": true,
+      "optionMinis": true,
+      "optionBackground": true,
+      "miniSize": "small",
+      "printColour": "green",
+      "printDyslexic": false,
+      "printDyslexie": true,
+      "printPortrait": "portraits/Gnome Noole.png",
+      "printBackground": "backgrounds/paper3.jpg"
+    }
+  }
+}
