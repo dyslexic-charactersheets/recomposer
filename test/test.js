@@ -10,8 +10,9 @@ fs.readdir(indir, 'utf-8', (err, files) => {
     return;
   }
   for (let file of files) {
+    // log("test", "File", file);
     if (!file.match(/\.json$/)) {
-      return;
+      continue;
     }
 
     let filename = indir+'/'+file;

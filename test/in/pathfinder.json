@@ -4,14 +4,13 @@
     "type": "character",
     "id": "8fa82c7",
     "attributes": {
-      "game": "starfinder",
-      "x-language": "french",
+      "game": "pathfinder",
+      "language": "french",
       "isLoggedIn": true,
       "name": "Fizzlepop",
       "race": "",
-      "background": "background/noble",
       "classes": [
-        "Mechanic"
+        "Bard"
       ],
       "archetypes": [],
       "inventoryStyle": "double",

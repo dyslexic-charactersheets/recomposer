@@ -4,16 +4,15 @@
     "type": "character",
     "id": "8fa82c7",
     "attributes": {
-      "game": "starfinder",
-      "x-language": "french",
+      "game": "dnd35",
+      "language": "french",
       "isLoggedIn": true,
       "name": "Fizzlepop",
       "race": "",
-      "background": "background/noble",
       "classes": [
-        "Mechanic"
+        "Rogue",
+        "Sorcerer"
       ],
-      "archetypes": [],
       "inventoryStyle": "double",
       "optionCover": true,
       "optionPermission": true,
