@@ -25,16 +25,20 @@ fs.readdir(indir, 'utf-8', (err, files) => {
       }
 
       let data = JSON.parse(fileData);
-      createCharacterSheet(data).then((data) => {
-        var outfile = __dirname+'/out/'+file.replace(/.json/, '')+'.pdf';
-        fs.writeFile(outfile, data, (err) => {
-          if (!!err) {
-            error("test", err);
-          } else {
-            log("test", "Wrote", outfile);
-          }
+      createCharacterSheet(data)
+        .then((result) => {
+          var outfile = __dirname+'/out/'+file.replace(/.json/, '')+'.pdf';
+          fs.writeFile(outfile, result.data, (err) => {
+            if (!!err) {
+              error("test", err);
+            } else {
+              log("test", "Wrote", outfile);
+            }
+          });
+        })
+        .catch((x) => {
+          error("test", x);
         });
-      });
     });
   }
 });

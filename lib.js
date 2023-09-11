@@ -3,11 +3,11 @@
  * @module dyslexic-charactersheets
  */
 
-const parse = require('./lib/parse.js');
+const { createCharacterSheet } = require('./lib/create.js');
 
-const create = require('./lib/create.js');
+const { setAssetDir } = require('./lib/assets.js');
 
 module.exports = {
-  parseFormFields: parse.parseFormFields,
-  createCharacterSheet: create.createCharacterSheet
+  setAssetDir,
+  createCharacterSheet
 };
